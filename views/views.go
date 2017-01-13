@@ -3,8 +3,9 @@ package views
 import (
 	"log"
 	"net/http"
-	"servidor/src/auth"
-	"servidor/src/forms"
+
+	"github.com/matibat/srv/auth"
+	"github.com/matibat/srv/forms"
 )
 
 // Login -> Iniciar sesión
@@ -33,4 +34,3 @@ func Login(w http.ResponseWriter, r *http.Request) {
 		log.Fatalf("[Login] Error interno fatal: %s\n", err) // A la mierda todo. Cagamos. :v
 	}
 }
-

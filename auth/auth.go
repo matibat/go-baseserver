@@ -6,9 +6,9 @@ import (
 	"log"
 	"math/big"
 	//"math/big"
-	"servidor/src/models"
-	"servidor/src/models/db"
-	"servidor/src/usables"
+	"github.com/matibat/srv/models"
+	"github.com/matibat/srv/models/db"
+	"github.com/matibat/srv/usables"
 
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/mgo.v2/bson"
