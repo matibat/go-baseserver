@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/matibat/srv/auth"
-	"github.com/matibat/srv/forms"
+	"srv/auth"
+	"srv/forms"
 )
 
 // Login -> Iniciar sesión
